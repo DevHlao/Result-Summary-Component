@@ -1,0 +1,269 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Hanken Grotesk;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1;
+}
+
+.container {
+  margin: 100px auto;
+}
+h4 {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 24px;
+  color: #e6e6e6;
+}
+
+.firstAndSecond {
+  width: 375px;
+  background-color: white;
+}
+
+.first {
+  background-color: hsl(241, 86%, 57%);
+  padding: 32px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.circle {
+  text-align: center;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(70, 18, 212),
+    hsl(241, 86%, 57%)
+  );
+  border-radius: 100%;
+  width: 125px;
+  height: 123px;
+  align-items: center;
+  margin: auto;
+  padding: 25px;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.great {
+  text-align: center;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.scoreRanking {
+  font-size: 14px;
+  width: 70%;
+  margin-left: 50px;
+  text-align: center;
+  line-height: 1.5;
+  color: #cfcfcf;
+}
+
+.summaryText {
+  padding-bottom: 20px;
+}
+
+.second {
+  padding: 24px;
+  background-color: white;
+}
+
+.sum1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: hsl(0, 71%, 97%);
+  border-radius: 10px;
+  padding: 1.1em;
+  margin-bottom: 5px;
+}
+
+.sum2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: hsl(38, 100%, 96%);
+  border-radius: 10px;
+  padding: 1.1em;
+  margin-bottom: 5px;
+}
+
+.sum3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: hsl(170, 46%, 95%);
+  border-radius: 10px;
+  padding: 1.1em;
+  margin-bottom: 5px;
+}
+
+.sum4 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: hsl(236, 70%, 96%);
+  border-radius: 10px;
+  padding: 1.1em;
+  margin-bottom: 24px;
+}
+
+.reaction1 {
+  display: flex;
+  gap: 10px;
+}
+
+.lineOne {
+  color: hsl(0, 100%, 67%);
+}
+
+.lineTwo {
+  color: hsl(39, 100%, 56%);
+}
+
+.lineThree {
+  color: hsl(166, 100%, 37%);
+}
+
+.lineFour {
+  color: hsl(234, 85%, 45%);
+}
+
+.firstNumber {
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.secondNumber {
+  color: white;
+  padding-top: 10px;
+  font-weight: lighter;
+  font-size: 12px;
+  text-align: center;
+}
+
+.summaryBoxes {
+  display: flex;
+
+  flex-direction: column;
+  gap: 10px;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.score,
+img {
+  padding-right: 10px;
+}
+
+button {
+  color: hsl(221, 100%, 96%);
+  height: 50px;
+  width: 330px;
+  background-color: hsl(224, 30%, 27%);
+  border-radius: 30px;
+  border-style: none;
+  padding: 0 5px;
+}
+
+.attribution {
+  text-align: center;
+  /* padding: 5px; */
+  font-size: 12px;
+  padding-top: 10px;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* Media Query */
+@media (min-width: 900px) {
+  body {
+    background-color: white;
+  }
+  .container {
+    margin: 150px auto;
+  }
+
+  .summaryText {
+    margin-top: 25px;
+    margin-bottom: 20px;
+  }
+
+  .firstAndSecond {
+    display: flex;
+    gap: 18px;
+    width: 700px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: 10px 20px 22px hsl(167, 63%, 93%);
+  }
+
+  .first {
+    width: 350px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+  }
+
+  .circle {
+    margin-top: 32px;
+    width: 180px;
+    height: 180px;
+    margin: 47px;
+  }
+
+  .firstNumber {
+    font-size: 64px;
+    margin: 10px;
+  }
+
+  .secondNumber {
+    font-size: 14px;
+  }
+
+  .great {
+    margin-top: 24px;
+    margin-bottom: 18px;
+  }
+
+  .second {
+    padding: 24px;
+  }
+
+  .scoreRanking {
+    width: 70%;
+    text-align: center;
+    padding-top: 10px;
+  }
+
+  h4 {
+    font-size: 20px;
+    margin-bottom: 24px;
+    padding-top: 24px;
+  }
+
+  h2 {
+    font-size: 64px;
+  }
+
+  button {
+    font-size: 16px;
+  }
+}
